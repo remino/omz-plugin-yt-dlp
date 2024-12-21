@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 # vi:ft=zsh
 
-local output_format="%(upload_date)s - %(uploader)s - %(title)s [%(width)sx%(height)s %(fps)s][%(display_id)s].%(ext)s"
+local output_format="%(title)s [%(width)sx%(height)s %(fps)s %(upload_date)s %(uploader)s][%(display_id)s].%(ext)s"
 local alias_axel="--downloader axel --downloader-args axel:'-n 15 -a -k'"
 local alias_mp4="-f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' --merge-output-format mp4"
 local alias_noarc="--no-download-archive"
