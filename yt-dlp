@@ -15,7 +15,7 @@ command yt-dlp -o $output_format \
 	--alias narc $alias_noarc \
 	--alias sub $alias_sub \
 	--alias mkv $alias_mkv \
-	--download-archive "done.txt" \
+	--download-archive "yt-dlp-archive.txt" \
 	--embed-chapters \
 	-N 10 \
 	"$@"
