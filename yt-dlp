@@ -3,7 +3,7 @@
 
 local output_format="%(upload_date)s - %(uploader)s - %(title)s [%(width)sx%(height)s %(fps)s][%(display_id)s].%(ext)s"
 local alias_axel="--downloader axel --downloader-args axel:'-n 15 -a -k'"
-local alias_mp4="-f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best'"
+local alias_mp4="-f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best' --merge-output-format mp4"
 local alias_noarc="--no-download-archive"
 local alias_sub="--sub-langs all --convert-subs srt --mkv --embed-subs"
 local alias_mkv="--remux-video mkv"
