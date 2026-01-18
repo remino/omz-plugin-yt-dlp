@@ -2,7 +2,9 @@
 
 Forked from
 [clavelm/yt-dlp-omz-plugin](https://github.com/clavelm/yt-dlp-omz-plugin).
-Modified by Rémino Rem <https://remino.net>.
+
+Modified by Rémino Rem <https://remino.net>. Also available as submodule in
+[_remino/omz-plugin_](https://github.com/remino/omz-plugin).
 
 A plugin to add completion for yt-dlp in Oh-My-Zsh and an alias/function `yd` to
 execute yt-dlp.
